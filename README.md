@@ -1,3 +1,3 @@
 # Code-1
 hallo
-![miku](miku.jpg)
+![miku](/HalloWelt/miku.jpg)
