@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 20px;
+}
+
+#infoBox {
+  position: fixed;
+  background-color: lightyellow;
+  border: 1px solid black;
+  padding: 5px;
+  pointer-events: none;
+  z-index: 1000;
+}
