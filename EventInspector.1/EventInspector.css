@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 40px; /* Abstand zwischen den Boxen */
+  align-items: flex-start; /* obere Kante ausrichten */
+  }
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  position: relative; /* relative heißt: Es passt sich an den Screen an */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#infoBox {
+  position: fixed;
+  background-color: rgb(249, 178, 255);
+  border: 1px solid rgb(255, 120, 172);
+  padding: 5px;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+#image {
+  align-items: flex-end;
+  justify-content: space-between; 
+  
+
+}
